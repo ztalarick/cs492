@@ -1,0 +1,9 @@
+Zachary Talarick
+
+Steps to add a syscall:
+
+1. create a folder with the syscall inside and create a makefile
+2. add it to the kernel's makefile
+3. add it to the system call table
+4. add it to the system call header file
+5. install and compile the kernel

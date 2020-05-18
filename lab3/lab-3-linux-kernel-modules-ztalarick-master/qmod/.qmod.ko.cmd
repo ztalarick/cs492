@@ -1,0 +1,1 @@
+cmd_/home/student/lab3/qmod/qmod.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/student/lab3/qmod/qmod.ko /home/student/lab3/qmod/qmod.o /home/student/lab3/qmod/qmod.mod.o ;  true
